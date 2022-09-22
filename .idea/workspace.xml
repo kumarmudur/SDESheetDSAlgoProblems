@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a63d34b-4c4f-4744-886e-aec748b84a42" name="Changes" comment="[JAVA][SDE Sheet][Section 1][Step 4] print number n times example solution">
-      <change afterPath="$PROJECT_DIR$/src/section1/step4/SumOfNthNumbers.java" afterDir="false" />
+    <list default="true" id="2a63d34b-4c4f-4744-886e-aec748b84a42" name="Changes" comment="[JAVA][SDE Sheet][Section 1][Step 4] sum of nth number example solution 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/section1/step4/SumOfNthNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/section1/step4/SumOfNthNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663814206574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[JAVA][SDE Sheet][Section 1][Step 4] sum of nth number example solution 1">
+      <created>1663834067590</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663834067590</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +165,8 @@
     <MESSAGE value="[JAVA][SDE Sheet][Section 1][Step 3] print all divisors example solution" />
     <MESSAGE value="[JAVA][SDE Sheet][Section 1][Step 4] print names n times example solution" />
     <MESSAGE value="[JAVA][SDE Sheet][Section 1][Step 4] print number n times example solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[JAVA][SDE Sheet][Section 1][Step 4] print number n times example solution" />
+    <MESSAGE value="[JAVA][SDE Sheet][Section 1][Step 4] sum of nth number example solution 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[JAVA][SDE Sheet][Section 1][Step 4] sum of nth number example solution 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

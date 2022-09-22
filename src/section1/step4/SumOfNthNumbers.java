@@ -11,8 +11,15 @@ public class SumOfNthNumbers {
         System.out.println("sum " + sum);
     }
 
+    // time: O(N) | space: O(1)
+    static int sumOfNthNumbers1(int n, int sum) {
+        if (n < 1) return sum;
+        sum += n;
+        return sumOfNthNumbers1(n - 1, sum);
+    };
+
     public static void main(String[] args) {
         sumOfNthNumbers(5);
-//        System.out.println(sumOfNthNumbers1(5, 0));
+        System.out.println(sumOfNthNumbers1(5, 0));
     }
 }
