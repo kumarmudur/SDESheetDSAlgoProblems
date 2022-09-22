@@ -18,6 +18,10 @@ public class SumOfNthNumbers {
         return sumOfNthNumbers1(n - 1, sum);
     };
 
+    static int sumOfNthNumbers2(int n) {
+        return n * (n + 1) / 2;
+    }
+
     public static void main(String[] args) {
         sumOfNthNumbers(5);
         System.out.println(sumOfNthNumbers1(5, 0));
