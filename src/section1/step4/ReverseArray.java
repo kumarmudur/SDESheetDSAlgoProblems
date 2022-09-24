@@ -29,6 +29,8 @@ public class ReverseArray {
         arr[right] = temp;
     }
 
+
+   //  time: O(N/2) | space: O(1)
     static int[] reverse2(int[] arr, int index) {
         int n = arr.length;
         if (index >= n / 2) return arr;
