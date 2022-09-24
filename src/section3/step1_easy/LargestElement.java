@@ -2,6 +2,7 @@ package section3.step1_easy;
 
 public class LargestElement {
 
+    // time: O(N) | space: O(1)
     static int largestElement(int[] arr) {
         int larest = arr[0];
 
