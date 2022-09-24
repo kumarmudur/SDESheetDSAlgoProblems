@@ -39,6 +39,17 @@ public class ReverseArray {
         return arr;
     }
 
+    // time: O(N) | space: O(1)
+    static int[] reverse3(int[] arr) {
+        int n = arr.length;
+        int[] result = new int[n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            result[n - i - 1] = arr[i];
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5};
 //      System.out.println(Arrays.toString(reverse(arr)));
