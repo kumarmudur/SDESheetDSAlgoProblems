@@ -1,6 +1,8 @@
 package section2.step1;
 
 public class SelectionSort {
+
+    // time: O(N^2) | space: O(1)
     public static void main(String[] args) {
         int[] arr = {13,46,24,52,20,9};
         int n = arr.length;
