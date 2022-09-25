@@ -26,7 +26,7 @@ public class MoveAllZerosToEnd {
     static void moveAllZerosToEnd1(int[] arr) {
         int k = 0;
         int length = arr.length;
-        while (k < arr.length) {
+        while (k < length) {
             if (arr[k] == 0) break;
             else k = k + 1;
         }
